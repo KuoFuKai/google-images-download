@@ -1,0 +1,16 @@
+{
+    "Records": [
+        {
+            "keywords": "LEBRON",
+            "limit": 200,
+            "print_urls": "True",
+            "chromedriver" : "C:\\Users\\avik.kuo\\PycharmProjects\\google-images-download\\google_images_download\\chromedriver.exe"
+        },
+        {
+            "keywords": "JAMES",
+            "limit": 200,
+            "print_urls": "True",
+            "chromedriver" : "C:\\Users\\avik.kuo\\PycharmProjects\\google-images-download\\google_images_download\\chromedriver.exe"
+        }
+    ]
+}
