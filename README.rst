@@ -15,13 +15,14 @@ Running the Script
 =============
 After setting up the ChromeDriver path in config.json, you can download images by executing the following command in your terminal or command prompt:
 
-bash
-Copy code
-python .\google_images_download.py -cf config.json
+    python .\google_images_download.py -cf config.json
+
 This command initiates the script with the configurations specified in config.json, and it will start downloading images based on your specified parameters.
 
 Please ensure that you have Python installed on your system and that you have followed the installation instructions for this script as outlined in the Installation section of the documentation.
 
+Feature
+=============
 Python Script for 'searching' and 'downloading' hundreds of Google images to the local hard disk!
 
 Documentation
