@@ -58,7 +58,7 @@ def user_input():
 
     if object_check['config_file'] != '':
         records = []
-        json_file = json.load(open(config_file_check[0].config_file))
+        json_file = json.load(open(config_file_check[0].config_file, encoding='utf-8'))
         for record in range(0, len(json_file['Records'])):
             arguments = {}
             for i in args_list:
