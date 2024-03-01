@@ -1,6 +1,27 @@
 Google Images Download
 ######################
 
+This project is a clone of Joeclinton1/google-images-download with some modifications to address certain issues. Before using this script, it is necessary to download the ChromeDriver that matches the version of your local Chrome browser. This ensures that the script can control the browser correctly for image downloads.
+
+ChromeDriver Download
+=============
+To download the appropriate version of ChromeDriver, please visit the ChromeDriver download page at https://googlechromelabs.github.io/chrome-for-testing/#stable. Select the version that corresponds to your Chrome browser's version to ensure compatibility.
+
+Configuration
+=============
+Users can modify the config.json file included in the google_images_download directory to customize their download preferences. One important step is to specify the absolute path to the ChromeDriver executable (including the .exe extension for Windows users). This path needs to be accurate for the script to initiate and control the browser properly.
+
+Running the Script
+=============
+After setting up the ChromeDriver path in config.json, you can download images by executing the following command in your terminal or command prompt:
+
+bash
+Copy code
+python .\google_images_download.py -cf config.json
+This command initiates the script with the configurations specified in config.json, and it will start downloading images based on your specified parameters.
+
+Please ensure that you have Python installed on your system and that you have followed the installation instructions for this script as outlined in the Installation section of the documentation.
+
 Python Script for 'searching' and 'downloading' hundreds of Google images to the local hard disk!
 
 Documentation
